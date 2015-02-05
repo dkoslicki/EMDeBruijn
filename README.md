@@ -17,7 +17,7 @@ The script RunEMDeBruijn.m contains a Matlab function
 
 ``[dist,flow]=RunFastEMDAllPairwise(file_name1,file_name2,kmer_size)``
 
-The files ``file_name1`` and ``file_name2`` contain the kmer_size counts (in lexicographic order). The script will return the distance ``dist`` and the ``flow``
+The files ``file_name1`` and ``file_name2`` contain the kmer_size counts (one per line, in lexicographic order). The script will return the distance ``dist`` and the ``flow``
 (a matrix of size 4^kmer_size x 4^kmer_size telling what kmer mass got moved where).
 
 ###Restrictions###
