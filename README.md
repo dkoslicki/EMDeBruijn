@@ -22,3 +22,6 @@ The files ``file_name1`` and ``file_name2`` contain the kmer_size counts (one pe
 
 ###Restrictions###
 Currently, the ``kmer_size`` is restricted to 5, 6, or 7.
+
+####Acknowledgments####
+The FastEMD code is due to Ofir Pele. See the file FastEMD/README.txt
